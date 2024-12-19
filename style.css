@@ -108,10 +108,10 @@ nav a{
   text-decoration: none;
 }
 nav a:link{
-  color: #33ccff;
+  color: white;
 }
 nav a:visited{
-  color: #33ccff;
+  color: white;
 }
 nav a:hover{
   color: red;
@@ -142,7 +142,7 @@ h1{
 h2{
   margin: 0px;
   padding: 0px;
-  padding-left: 150px;
+  
   text-transform: uppercase;
   text-align: left;
 
@@ -165,12 +165,12 @@ h1{
 }
 p, br{
   text-align: left;
-  padding-left: 150px;
+  
 
 }
 ul{
   text-align: left;
-  padding-left: 250px;
+  
 
 }
 
@@ -198,10 +198,13 @@ blockquote{
   border-right:5px solid red ;
   border-bottom:5px solid red ;
   text-align: center;
-
 }
+
 .web-designs h1, h2, h3{
   text-align: center;
+}
+.web-designs p{
+  text-align: left;
 }
 
 .resume-code{
@@ -213,6 +216,14 @@ blockquote{
   border-bottom:5px solid red ;
   text-align: left;
   text-size-adjust: 24px;
+}
+.resume-code h2{
+  border-bottom: 3px solid black;
+}
+
+hr{
+  height: 3px;
+  color: black;
 }
 
 footer{                                 /*Footer*/
